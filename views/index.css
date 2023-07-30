@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/Cy7YPNg.jpg");
+    /* background-color:#9d9dd9e5; */
+    font-family: sans-serif;
+
+}
+.form-details{
+    width: 450px;
+    background-image: url("https://la1connect.com/wp-content/uploads/2015/01/background_form.jpg");
+    /* background-color: #ffffffea; */
+    box-shadow: 0 0 10px 0 #bfbdbdca;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10px;
+}
+form{
+    margin: 40px;
+}
+.adr{
+    margin-top: 20px;
+}
+
+.input-field{
+    width: 350px;
+    height: 40px;
+    margin-top:25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #514949;
+    border-radius: 7px;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace ;
+
+}
+
+.btn{
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 28px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .form-details {
+      width: 90%;
+      max-width: 500px;
+      top: 36%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    form {
+      margin-right: 60px;
+    }
+  
+    .input-field {
+      width: 100%;
+    }
+  
+    .btn {
+      margin-top: 15px;
+      padding: 8px;
+      font-size: 10px;
+    }
+  }
+  span{
+    color: #f8321490;
+    font-size: 12px;
+  }
+
+  
+  
+  
+  
+  
+    
+    
+
+
+
+
+/*table css */
+.table-section{
+  margin-top: 600px;
+  height: auto;
+  overflow: auto;
+}
+h2{
+    /* margin-left: 400px; */
+    text-align: center;
+}
+
+table{
+    margin-top: 40px;
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+
+}
+thead th{
+    position: sticky;
+    top: 0;
+    background-color: #bcc6d1;
+    color:black ;
+    font-size: 16px;
+}
+th,td{
+    border-bottom: 1px solid #e9d8d8dd;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+    color: white;
+}
+ tr:hover td{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: #297773ad;
+ }
+
+ .edit-btn
+{
+  background-color: #3888df;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-btn:hover{
+background-color: #007bff;
+}
+
+.delete-btn {
+    background-color: #e74444d7;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+.delete-btn:hover{
+    background-color: #ff0000;
+}
+

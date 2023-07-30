@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="index.css"">
+</head>
+<body>
+   <div class="form-details">
+    <h2 class="adr" >Students Form</h2>
+    <form method="post">
+        <!-- <label for="name" class="label">Name:</label> -->
+        <input type="text" class="input-field" id="name" name="name"  placeholder="Name">
+        <span id="error-name"></span>
+
+        <!-- <label for="phone" class="label">Phone:</label> -->
+        <input type="text" class="input-field" id="standard" name="standard"  placeholder="Standard">
+        <span id="error-std"></span>
+
+        <!-- <label for="address" class="label">Address:</label> -->
+        <input type="text" class="input-field" id="subject" name="subject"  placeholder="subject">
+        <span id="error-sub"></span>
+
+        <!-- <label for="city" class="label">City:</label> -->
+        <input type="text" class="input-field" id="mark" name="mark"  placeholder="Mark">
+        <span id="error-mark"></span>
+
+        <br>
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+  </div>
+   
+    <!-- <script src="table.js" defer></script>  -->
+    <div class="table-section">
+    <h2>Student Data Table</h2>
+    <table id="Student-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Standard</th>
+          <th>Subject</th>
+          <th>Mark</th>
+          <th>Action</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be inserted here -->
+      </tbody>
+    </table>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
